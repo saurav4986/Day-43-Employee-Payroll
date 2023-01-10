@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<!-- Head Section Content -->
+<head>
+    <!-- Page title -->
+    <title>Employee Wage</title>
+    <link rel="stylesheet" href="Employee (1).css">
+    <!-- <link rel="script" href="aaaaa.js"> -->
+
+</head>
+ 
+<!-- Body Section Content -->
+<body>
+ 
+    <!-- Heading Content -->
+    <img src="BL_logo_square_jpg (1).jpg" width="100" alt="Company Logo">
+    <h1> Employee Payroll</h1>
+    <p>The future is here</p>
+ 
+    <h3>Employee Wage</h3>
+ 
+    <!-- Creating a from -->
+    <form action ="#" onsubmit="Saved()">
+        <!-- <form class="form" action="#" onsubmit="Save()" ></form> -->
+        
+        <fieldset>
+            <legend>Personal Details</legend>
+ 
+            <!-- Label and input field -->
+            <div class="row-content">
+                <label  class="label-text" for="name">Name</label>
+                <input  class= "input" type="text" id="text" name="name"  placeholder="Your name..." required />
+                <error-output class="text-error" for="text"></error-output>
+
+            </div>
+                
+
+            <p id="fp1" >
+                Profile Image :
+                
+                <label ><input type="radio" name="HR" required
+                    value="HR" /> <img src="p1.png" width="50" alt="HR" ></label>
+
+                <label ><input type="radio" name="HR" required
+                    value="HR" /> <img src="p2.png" width="50" alt="HR"></label>
+
+                <label ><input type="radio" name="HR" required
+                    value="HR" /> <img src="p3.png" width="50" alt="HR"></label>
+
+                <label ><input type="radio" name="HR" required
+                    value="HR" /> <img src="p4.png" width="50" alt="HR"></label>
+
+                <label ><input type="radio" name="HR" required
+                    value="HR" /> <img src="p5.png" width="50" alt="HR"></label>
+
+                <label ><input type="radio" name="HR" required
+                    value="HR" /> <img src="p6.png" width="50" alt="HR"></label>
+
+                <label ><input type="radio" name="HR" required
+                    value="HR" /> <img src="p7.png" width="50" alt="HR"></label>
+                    
+                 
+            </p>
+
+            <!-- Label and radio button field -->
+            <p id="fgender" >
+                Gender :
+                <label ><input type="radio" name="gender" required
+                    value="male" /> Male</label>
+ 
+                <label><input type="radio" name="gender" required
+                    value="female" /> Female</label>
+                    
+            </p>
+
+            <p id="fdep">
+                Department :
+                <label><input type="radio" name="HR" required
+                    value="HR" /> HR</label>
+ 
+                <label><input type="radio" name="Sales" required
+                    value="Sales" /> Sales</label>
+
+                <label><input type="radio" name="Finance" required
+                    value="Finance" /> Finance</label>
+
+                <label><input type="radio" name="Engineer" required
+                    value="Engineer" /> Engineer</label>
+
+                <label><input type="radio" name="Others" required
+                    value="Others" /> Others</label>
+                    
+            </p>
+
+            
+
+        <div id="slider">
+            <label for="salary">Enter Salary: </label>
+    <input class="bar" type="range" id="rangeinput" min="100000" max="400000" value="100000" onchange="rangevalue.value=value"/>
+    <span class="highlight"></span>
+    <output id="rangevalue">100000</output>
+</div>
+           
+
+            <p>
+                <label id="fbirth">Start Date : <input type="date" required
+                    name="birthDate"></label>
+            </p>
+ 
+ 
+            <!-- Label and textarea field -->
+            <p id="fad">
+                <label >Notes :
+                    <br />
+                    <textarea name="address" cols="40"
+                        rows="2" required></textarea>
+                        
+                </label>
+            </p>
+ 
+            <!-- Creating a button -->
+            <p>
+                <button type="cancel" class="btn">Cancel</button> 
+                <button type="button">Submit</button>
+                <button type="reset" class="btn3">Reset</button>
+            </p>
+
+            
+        </fieldset>
+    </form>
+    <script src="simple_form.js"></script>
+    <script src="aaaaa.js"></script>
+    
+   
+    
+</body>
+ 
+</html>

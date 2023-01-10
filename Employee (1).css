@@ -1,0 +1,59 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+#fname{
+    font-weight: bold;
+}
+
+#fbirth{
+    font-weight: bold;
+}
+
+#fgender{
+    font-weight: bold;
+}
+
+#fp1{
+    font-weight: bold;
+}
+
+#fdep{
+    font-weight: bold;
+}
+
+#fsal{
+    font-weight: bold;
+}
+
+#fad{
+    font-weight: bold;
+}
+
+.btn{
+    margin-right: 5px;
+    background-color: red;
+}
+
+.btn1{
+    margin-right: 5px;
+    background-color: green;
+}
+
+.btn3{
+    margin-right: 5px;
+    background-color: grey;
+}
+
+
+error-output{
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
